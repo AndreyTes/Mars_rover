@@ -15,7 +15,7 @@ class Rover
       @commands.each_char { |command| execute command }
       p "X: #{position[0]}    Y: #{position[1]}    DIRECTION: #{direction}"
     else
-      p 'Rover lending out of range'
+      p 'Rover landing out of range'
     end
   end
 
